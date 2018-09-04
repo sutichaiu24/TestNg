@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="14421" started-at="2018-09-04T11:43:42Z" finished-at="2018-09-04T11:43:57Z">
+    <groups>
+    </groups>
+    <test name="TestNg" duration-ms="14421" started-at="2018-09-04T11:43:42Z" finished-at="2018-09-04T11:43:57Z">
+      <class name="com.seleniumexample.RabbitRegistration">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumexample.RabbitRegistration@48cf768c]" name="setUp" is-config="true" duration-ms="2195" started-at="2018-09-04T18:43:42Z" finished-at="2018-09-04T18:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test01_Registration()[pri:0, instance:com.seleniumexample.RabbitRegistration@48cf768c]" name="Test01_Registration" duration-ms="12217" started-at="2018-09-04T18:43:45Z" finished-at="2018-09-04T18:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_Registration -->
+      </class> <!-- com.seleniumexample.RabbitRegistration -->
+    </test> <!-- TestNg -->
+  </suite> <!-- Default Suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="TestNg(failed)">
+    <classes>
+      <class name="com.seleniumexample.RabbitRegistration">
+        <methods>
+          <include name="setUp"/>
+          <include name="Test01_Registration"/>
+        </methods>
+      </class> <!-- com.seleniumexample.RabbitRegistration -->
+    </classes>
+  </test> <!-- TestNg(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

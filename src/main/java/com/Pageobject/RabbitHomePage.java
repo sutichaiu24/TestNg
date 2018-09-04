@@ -16,8 +16,18 @@ public class RabbitHomePage {
         return element;
     }
 
+    public static WebElement arrow(WebDriver driver) {
+        element = driver.findElement(By.xpath("//*[@id=\"sub-navbar\"]/ul/li[4]/a/span"));
+        return element;
+    }
+
     public static WebElement name_arrow(WebDriver driver) {
         element = driver.findElement(By.linkText("sudhichai ungsuthornrungsi"));
+        return element;
+    }
+
+    public static WebElement logout_arrow(WebDriver driver) {
+        element = driver.findElement(By.linkText("ออกจากระบบ"));
         return element;
     }
 
